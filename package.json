@@ -7,11 +7,13 @@
     "prestart": "babel-node buildScripts/startMessage.js",
     "open:src": "babel-node buildScripts/srcServer.js",
     "security-check": "nsp check",
-    "localtunnel":"lt --port 3000",
-    "share":"npm-run-all --parallel open:src"},
+    "localtunnel": "lt --port 3000",
+    "share": "npm-run-all --parallel open:src"
+  },
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "@types/numeral": "0.0.25",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
